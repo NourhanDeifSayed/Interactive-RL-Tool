@@ -1079,7 +1079,7 @@ export default function RLVisualizer() {
             </Card>
           </div>
           
-          {/* الجانب الأيمن */}
+          {}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
             <Card hoverable={true}>
               <SectionHeader 
@@ -1339,7 +1339,7 @@ export default function RLVisualizer() {
           </div>
         </Card>
         
-        {/* لوحة إعدادات المكافآت */}
+        {}
         {showRewardSettings && (
           <RewardSettingsPanel
             envType={selectedEnv}
